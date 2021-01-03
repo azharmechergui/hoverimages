@@ -1,0 +1,108 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="functions.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+
+
+    <script src="bootstrap.min.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <script src=jquery.js></script>
+    <script src="bootstrap.min.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Join Us !</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="LoginPage.html">Login</a>
+                    <a class="nav-item nav-link" href="About.html">About</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="#form" class="contenuform" >
+        <h2>Login</h2>
+        <div class="user-container">
+            <table>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email"> </td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td> <input type="password" name="password" min="4"></td>
+                </tr>
+            </table> <br>
+            <input type="submit" name="submit" class="button">
+
+            <br> <br>
+            <p> you're a new visitor :</p> <br><br>
+            <input type="button" value="Create an account!" name="create" class="button" onclick="showCreate()">
+        </div>
+    </div>
+
+    <div id="form" class="contenuform" >
+        <h2>Fill this form please !</h2>
+        
+        <div >
+
+            <form action="get">
+
+                <table>
+                    <tr>
+                        <td> Last Name : </td>
+                        <td><input type="text" name="firstname"> </td>
+                    </tr>
+                    <tr>
+                        <td> First Name : </td>
+                        <td><input type="text" name="lastname"> </td>
+                    </tr>
+                    <tr>
+                        <td> Email :</td>
+                        <td><input type="email" name="email"> </td>
+                    </tr>
+                    <tr>
+                        <td>Birthday :</td>
+                        <td> <input type="date" name="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td> Gender :</td>
+                        <td> <input type="radio" name="gender">Female</input></td>
+                        <td><input type="radio" name="gender">Male</input></td>
+                    </tr>
+                    <tr>
+                        <td> Password : </td>
+                        <td> <input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td> Confirm your password :</td>
+                        <td> <input type="password" name="password"></td>
+                    </tr>
+                </table><br>
+                <input type="button" value="Done!" class="button">
+            </form>
+        </div>
+
+
+
+
+
+
+        <footer style="text-align: center;">Made With Love ! &copy; </footer>
+</body>
+
+</html>
